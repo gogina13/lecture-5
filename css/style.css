@@ -22,6 +22,7 @@ header {
     color: #fa6980;
     vertical-align: middle;
 	margin-right: 70px;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
 
 }
 
@@ -35,6 +36,8 @@ li {
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 30px;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
 }
 
 li a {
@@ -48,6 +51,7 @@ li a {
     position: absolute;
     width: 30px;
     height: 30px;
+    
 }
 .s-1 {
     position: relative;
@@ -82,7 +86,11 @@ li a {
     padding-top: 60px;
 
 }
-
+h2{
+    color: #000000;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
 h3{
     position: absolute;
     font-size: 16px;
@@ -96,6 +104,7 @@ h3{
     line-height: 20px;
     font-style: normal;
     text-align: left;
+    text-shadow: 4px 3px 0 #7A7A7A;
 }
 h5{
     position: absolute;
@@ -111,6 +120,7 @@ h5{
     left: 40px;
     top: 281px;
     padding-top:20px;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
 }
 h6{
     color: #A6ADB4;
@@ -125,6 +135,7 @@ h6{
     text-align: left;
     left: 70px;
     top: 351px;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
    
 }
 .img-2{
@@ -182,6 +193,7 @@ h4{
     line-height: 20px;
     font-style: normal;
     text-align: left;
+    text-shadow: 4px 3px 0 #7A7A7A;
 }
 .co-1{
     position: absolute;
@@ -198,10 +210,11 @@ footer{
     position: absolute;
     width: 1519px;
     height: 200px;
-    background: #a6adb4;
+    background: #868d92;
     top: 1700px;
 }
 .h3-1{
+    color: #fa6980;
     left: 153px;
     top: 70px;
 }
